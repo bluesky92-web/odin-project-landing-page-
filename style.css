@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Mochiy+Pop+P+One&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Fira Sans', sans-serif;
+
+
+}
+.header{
+background-color:#1f2937;
+min-height: 600px;
+
+
+
+}
+.logo-links{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logi{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:  6%;
+
+}
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+  }
+  
+ ul {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     gap: 22px;
+    list-style-type: none;
+    margin-right:4rem ;
+  }
+  li{
+      margin:30px 0px;
+      padding: 8px;
+  }
+   .main{
+       display: flex;
+       justify-content:space-around ;
+   }
+   /*hero main text*/
+
+   .hero1{
+       font-size: 48px;
+       color:#f9faf8;
+       font-weight: bolder;
+       max-width: 600px;
+   }
+   /*hero main text end */
+
+   /* secodary text*/
+   .secondary{
+       font-size:18px ;
+       color: #e9e7eb;
+       font-size: 18px;
+       margin-top: 10px;
+   }
+   /* secodary text end*/
+   .left{
+       margin-top:8% ;
+   }
+   .left>button{
+       border: none;
+       color: #e5e7eb;
+       background-color: #3882f6;
+       border-radius: 8px;
+       font-size: 22px;
+       padding: 5px 18px;
+       margin-top: 20px;
+       cursor: pointer;
+   }
+
+.holder{
+    margin-top: 2%;
+   width: 500px;
+   height: 500px;
+}
+  img{
+    max-width: 500px;
+    max-height: 500px;
+    
+  }
+
+  /*end of the header section*/
+
+  /*start second section*/
+    .title{
+      font-size: 36px;
+      font-weight: bolder;
+      color: #1f2937;
+      text-align: center;
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
+    .container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .info>img{
+        width: 150px;
+        height: 150px;
+        border: 5px solid #294772;
+        border-radius: 10%;
+    }
+    .info{
+        max-width: 180px;
+        min-height: 300px;
+        color: #2c2d31;
+    }
+    /*second section end*/
+
+    /*third section start*/
+    .quote-container{
+        background-color: #e5e7eb;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .quote-text{
+       font: italic lighter 36px 'Fira Sans', sans-serif;
+       color: #1f2937;
+       max-width: 500px;
+       
+    }
+    .author{
+        margin-top: 55px;
+        font:bolder 18px 'Fira Sans', sans-serif;
+    }
+    /*third section ends*/
+    p{
+        margin: 0;
+        padding:0 ;
+        
+    }
+    .main-container{
+       
+        
+    }
+     .sub-container{
+         
+         border-radius:8px;
+         background-color: #3882f6;
+         
+         justify-content: center;
+         
+         
+         
+
+     }
+     button{
+         
+         border: 2px solid rgb(255, 255, 255);
+         color: #e5e7eb;
+         background-color: #3882f6;
+         border-radius: 8px;
+         font-size: 15px;
+         padding: 5px 18px;
+         cursor: pointer;
+         font-weight: bold;
+
+     }
+     .button-container{
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+
+     }
