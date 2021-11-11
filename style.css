@@ -119,15 +119,17 @@ a {
     }
 
     .info>img{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border: 5px solid #294772;
         border-radius: 10%;
+        
     }
     .info{
-        max-width: 180px;
+        max-width: 200px;
         min-height: 300px;
         color: #2c2d31;
+        
     }
     /*second section end*/
 
